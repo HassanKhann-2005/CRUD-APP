@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://HassanKhann-2005.github.io/CRUD-APP",
+ "homepage": "https://HassanKhann-2005.github.io/CRUD-APP",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
