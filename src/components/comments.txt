@@ -1,0 +1,13 @@
+// we use useSelector to acces data from global state
+const Read = () => {
+  const dispatch = useDispatch();
+  const { users, loading } = useSelector((state) => state.app);  // app is from the reducer of store which is giving us user details 
+
+    // {users,loading} means we just want users and loading from app
+
+  useEffect(() => {
+    dispatch(showUsers());
+  }, []);
+
+  // Show loading alert only for the initial fetch
+  useEffect(() => {
