@@ -1,3 +1,4 @@
+// App.jsx
 import React from 'react'
 import Navbar from './components/Navbar'
 import Form from './components/Form'
@@ -9,9 +10,9 @@ function App() {
     <HashRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Form />} />
-        <Route path='/read' element={<Read />} />
-        <Route path='*' element={<h1>404 Not Found</h1>} />
+        <Route path="/" element={<Form />} />
+        <Route path="/read" element={<Read />} />
+        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </HashRouter>
   )
